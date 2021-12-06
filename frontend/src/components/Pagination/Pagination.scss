@@ -1,0 +1,17 @@
+.pagination {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    p {
+        margin: 20px 10px 10px;
+        font-family: cursive;
+        font-size: 20px;
+        color: rgba(97, 84, 78, 1);
+        cursor: pointer;
+        transition: .2s;
+        &:hover {
+            color: rgba(97, 84, 78, .6);
+        }
+    }
+}

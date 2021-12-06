@@ -1,0 +1,11 @@
+.table-header {
+    font-family: cursive;
+    text-align: center;
+}
+
+.main-table {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
